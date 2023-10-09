@@ -7,4 +7,6 @@ def main(a,b):
     Returns:
         bool: answer
     """
+    x=a%2 == 1 and b%2 == 1
     return
+print(main(3,6))
